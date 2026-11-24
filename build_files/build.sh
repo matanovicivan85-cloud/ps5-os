@@ -25,3 +25,4 @@ dnf5 install -y chromium
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+systemctl enable ps5-os.service
