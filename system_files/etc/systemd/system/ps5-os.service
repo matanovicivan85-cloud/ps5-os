@@ -1,0 +1,12 @@
+[Unit]
+Description=PS5 OS Gaming Interface
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash /usr/share/ps5-os/launch.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical.target
