@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PS5 OS</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(135deg, #07152f, #123d85, #050914);
+  min-height: 100vh;
+}
+header {
+  padding: 35px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 { font-size: 34px; letter-spacing: 5px; }
+main { padding: 40px 6%; }
+h2 { font-size: 28px; }
+.games {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+.game {
+  width: 210px;
+  height: 260px;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #2459a9, #101c38);
+  border: 2px solid #ffffff33;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  cursor: pointer;
+  transition: .2s;
+}
+.game:hover {
+  transform: scale(1.06);
+  border-color: white;
+}
+.game h3 { font-size: 23px; }
+.status { color: #a9d5ff; }
+</style>
+</head>
+<body>
+<header>
+  <h1>PS5 OS</h1>
+  <div>HOME　 GAMES　 SETTINGS</div>
+</header>
+<main>
+  <h2>Dobrodošao u PS5 OS</h2>
+  <p class="status">Your gaming world starts here.</p>
+  <h2>Games</h2>
+  <div class="games">
+    <div class="game"><h3>Game 1</h3></div>
+    <div class="game"><h3>Game 2</h3></div>
+    <div class="game"><h3>Game 3</h3></div>
+    <div class="game"><h3>Library</h3></div>
+  </div>
+</main>
+</body>
+</html>
